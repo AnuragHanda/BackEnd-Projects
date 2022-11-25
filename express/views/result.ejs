@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
+    <title>Document</title>
+<style>
+
+div{
+
+font-size: 30px;
+
+}
+
+span{
+
+    font-size: medium;
+}
+
+</style>
+
+</head>
+<body>
+    <h2 class="ui header" style="margin-left: 30px;margin-top:30px ; ">
+        <i class="user icon"></i>
+        <div class="content">
+            <%=item.name%>
+          <div class="sub header">Manage your preferences</div>
+        </div>
+      </h2>
+
+
+      <div class="ui list" style="border:1px solid black ;margin-left: 40px;">
+        <div class="item">
+          <i class="user circle icon"></i>
+          <div class="content">
+
+           Name: <span> <%=item.name%></span>
+          </div>
+        </div>
+        
+        <div class="item">
+          <i class="marker icon"></i>
+          <div class="content">
+
+            Roll No: <span><%=item.roll%></span>
+          </div>
+        </div>
+
+        <div class="item">
+            <i class="address book outline icon"></i>
+            <div class="content">
+              House No: <span><%=item.add%> </span>
+            </div>
+          </div>
+<br>
+<br>
+<div> Marks</div>
+<br>
+<br>
+
+        <div class="item">
+            <i class="marker icon"></i>
+            <div class="content">
+              Maths: <span><%=item.maths%></span>
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="marker icon"></i>
+
+            <div class="content">
+              Science:  <span> <%=item.science%></span>
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="marker icon"></i>
+            <div class="content">
+              Hindi: <span><%=item.hindi%> </span>
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="marker icon"></i>
+            <div class="content">
+
+              English: <span><%=item.english%></span>
+            </div>
+          </div>
+          <div class="item">
+            <i class="marker icon"></i>
+            <div class="content">
+              SST: <span><%=item.sst%></span>
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="marker icon"></i>
+            <div class="content">
+
+              Grade: <span><%=item.grade%></span>
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="marker icon"></i>
+            <div class="content">
+              Average: <span><%=item.avg%></span>
+            </div>
+          </div>
+
+
+
+      </div>
+
+
+   
+
+</body>
+</html>
